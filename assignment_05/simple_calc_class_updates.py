@@ -4,7 +4,7 @@
 Simple Calculator
 --------------------------------------------------------------------------
 License:   
-Copyright 2019 Erik Welsh
+Copyright 2019 Rebecca Liu
 
 Redistribution and use in source and binary forms, with or without 
 modification, are permitted provided that the following conditions are met:
@@ -33,7 +33,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
 THE POSSIBILITY OF SUCH DAMAGE.
 --------------------------------------------------------------------------
 
-Simple calculator that will do +, -, *, / and pow
+Simple calculator that will do +, -, *, /, >>, <<, % and pow
 
   - Take in two numbers
   - Take in an operator
@@ -63,7 +63,11 @@ operators = {
     "+" : operator.add,
     "-" : operator.sub,
     "*" : operator.mul,
-    "/" : operator.truediv
+    "/" : operator.truediv,
+    ">>": operator.rshift,
+    "<<": operator.lshift,
+    "%" : operator.mod,
+    "**": operator.pow
 }
 
 # ------------------------------------------------------------------------
@@ -75,7 +79,7 @@ def get_user_input():
     try:
         number1 = float(input("Enter the first number:  "))
         number2 = float(input("Enter the second number: "))
-        op      = input("Enter an operator (valid operators are +, -, *, and /): ")
+        op      = input("Enter an operator (valid operators are +, -, *, /, >>, <<, %, **): ")
     
         return (number1, number2, op)
     except Exception as e: 
