@@ -98,10 +98,10 @@ def get_user_input():
 if __name__ == "__main__":
 
     try:
-	input = raw_input
+        input = raw_input
     except NameError:
-	pass
-
+        pass
+    
     while True:
         (number1, number2, op) = get_user_input()
 
@@ -112,3 +112,4 @@ if __name__ == "__main__":
             break
         else:
             print(func(number1, number2))
+
