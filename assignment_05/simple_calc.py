@@ -3,8 +3,11 @@
 --------------------------------------------------------------------------
 Simple Calculator / simple_calc
 --------------------------------------------------------------------------
-License:   
-Copyright 2019 Rebecca Liu / rpl2@rice.edu
+Authors: Rebecca Liu (rpl2 [at] rice [dot] edu)
+
+Copyright 2019, Rebecca Liu
+
+License:
 
 Redistribution and use in source and binary forms, with or without 
 modification, are permitted provided that the following conditions are met:
