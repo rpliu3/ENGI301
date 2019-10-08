@@ -43,7 +43,7 @@ THE POSSIBILITY OF SUCH DAMAGE.
 Program that blinks the USR3 LED at 5 Hz
 
 --------------------------------------------------------------------------
-
+"""
 import Adafruit_BBIO.GPIO as GPIO
 import time
 
