@@ -3,9 +3,9 @@
 --------------------------------------------------------------------------
 LED blink program / blink_USR3.py
 --------------------------------------------------------------------------
-Authors: Rebecca Liu (rpl2 [at] rice [dot] edu
+Authors: Rebecca Liu (rpl2 [at] rice [dot] edu)
   
-Copyright 2019 Rebecca Liu / rpl2@rice.edu
+Copyright 2019 Rebecca Liu
 Reference credits:
 BeagleBone IO Python library
 Ben Croston, MIT Licensed RPi.GPIO library.
