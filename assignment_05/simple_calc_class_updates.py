@@ -75,6 +75,8 @@ operators = {
 # ------------------------------------------------------------------------
 
 def get_user_input():
+
+
     """ Will return (number, number, operator) or (None, None, None) on error"""
     try:
         number1 = float(input("Enter the first number:  "))
@@ -94,6 +96,12 @@ def get_user_input():
 # ------------------------------------------------------------------------
 
 if __name__ == "__main__":
+
+    try:
+	input = raw_input
+    except NameError:
+	pass
+
     while True:
         (number1, number2, op) = get_user_input()
 
