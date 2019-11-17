@@ -63,7 +63,7 @@ import Adafruit_BBIO.GPIO as GPIO
 # ------------------------------------------------------------------------
 
 BUTTONK                      = "P2_17" #black button
-BUTTONI                      = "P2_19" #yellow button
+BUTTONY                      = "P2_19" #yellow button
 BUTTONG                      = "P2_18" #green button
 BUTTONR                      = "P2_20" #red button
 BUTTONB                      = "P2_22" #blue button
@@ -91,7 +91,7 @@ def setup():
 
     # Initialize Buttons
     GPIO.setup(BUTTONK,GPIO.IN)
-    GPIO.setup(BUTTONI,GPIO.IN)
+    GPIO.setup(BUTTONY,GPIO.IN)
     GPIO.setup(BUTTONG,GPIO.IN)
     GPIO.setup(BUTTONR,GPIO.IN)
     GPIO.setup(BUTTONB,GPIO.IN)
@@ -110,29 +110,26 @@ def task():
             #NOTE: the path for the playlist MUST be correct and complete otherwise program will not be able to find variable 'song' for function play_song
 
         # Wait for button press
-        elif(GPIO.input(BUTTONI) == 0):
+        elif(GPIO.input(BUTTONY) == 0):
             #call function to play the songs in this playlist
             play_song('/var/lib/cloud9/ENGI301/Project1/Infinite/*.mp3')
-            #NOTE: the path for the playlist MUST be correct and complete otherwise program will not be able to find variable 'song' for function play_song
+
 
          # Wait for button press
         elif(GPIO.input(BUTTONG) == 0):
             #call function to play the songs in this playlist
             play_song('/var/lib/cloud9/ENGI301/Project1/NCT/*.mp3')
-            #NOTE: the path for the playlist MUST be correct and complete otherwise program will not be able to find variable 'song' for function play_song
 
          # Wait for button press
         elif(GPIO.input(BUTTONR) == 0):
             #call function to play the songs in this playlist
             play_song('/var/lib/cloud9/ENGI301/Project1/BigBang/*.mp3')
-            #NOTE: the path for the playlist MUST be correct and complete otherwise program will not be able to find variable 'song' for function play_song
 
          # Wait for button press
         elif(GPIO.input(BUTTONB) == 0):
             #call function to play the songs in this playlist
             play_song('/var/lib/cloud9/ENGI301/Project1/Chen/*.mp3')
-            #NOTE: the path for the playlist MUST be correct and complete otherwise program will not be able to find variable 'song' for function play_song
-
+            
          #Wait for button press
         elif(GPIO.input(BUTTONC) == 0):
             #stop all processes when the control button is pressed
