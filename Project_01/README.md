@@ -5,7 +5,7 @@ This repository contains the code and documentation for this project. This proje
 
 ### Audio and Control Hardware
 Parts Needed:
-1. USB External Stero Sound Adapter
+1. USB External Stereo Sound Adapter
 2. Female USB Types A Adapter
 3. Push Buttons (x 6)
 4. 1.5 kOhm resistors (x 6; brown, green, red)
