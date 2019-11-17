@@ -9,7 +9,7 @@ Parts Needed:
 2. Female USB Types A Adapter
 3. Push Buttons (x 6)
 4. 1.5 kOhm resistors (x 6; brown, green, red)
-5. Speaker of choice.
+5. Speaker of choice
 
 Steps:
 1. Solder V_BUS and V_IN pins (P1.5 and P1.7) together.
