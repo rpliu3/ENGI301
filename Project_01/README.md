@@ -97,3 +97,6 @@ The code for just the LED display can be run through the terminal using python3 
 ## Operation Instructions
 
 User should have one terminal open that is used to run config-pin P1_8 out and sudo ./opc-server --config my-config.json. The user should then open another terminal (without exiting the first) that is used to run python3 Composite.py (make sure path includes LEDscape). The user can then interact with the display using the panel of buttons. When switching between groups, the user should press the control button to clear the LED display. Use for continuous music and light displays!
+
+# Find out more about this project on Hackster: 
+https://www.hackster.io/rebecca-liu/light-up-multi-kpop-group-fan-display-with-music-3c68dd
