@@ -1,4 +1,4 @@
-# Project 01
+# Multi-Fandom Fan Light Display with Music
 This repository contains the code and documentation for this project. This project uses push buttons to play playlists of MP3 files while displaying a corresponding LED design. The device is controlled by a panel of push buttons and runs on boot. The code and build instructions are intended for implementation on a PocketBeagle and assumes that user has already setup the PocketBeagle for use.
 
 ## Build Instructions
@@ -30,12 +30,28 @@ Steps:
 
     |    Button     |      Pin      |
     | ------------- | ------------- |
-    | Black | P2.17 |
-    | Yellow | P2.19 |
-    | Green | P2.18 |
-    | Red | P2.20 |
-    | Blue | P2.22 |
     | Control | P2.24 |
+    | Black | P2.22 |
+    | Yellow | P2.20 |
+    | Green | P2.18 |
+    | Red | P2.19 |
+    | Blue | P2.17 |    
+
+### LED String Light Hardware
+Parts Needed:
+1. HKBAYI 240 pixel RGB light string
+2. Cardboard
+3. Clear tape
+
+Steps:
+1. Create a 25x9 LED matrix by snaking the LED light string along the cardboard and secure using tape. There should be one column of LED lights on either side of the matrix that will not be used in the display because it is the turning point of the light string. 
+2. Connecte the LED light string to the PocketBeagle using the following pinout
+
+    |    Wire     |      Pin      |
+    | ------------- | ------------- |
+    | Red (Vout) | P1.24 |
+    | Green (Input) | P1.8 |
+    | White (GND) | P1.22 |  
 
 ## Operation Instructions
 
