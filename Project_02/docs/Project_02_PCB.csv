@@ -1,0 +1,10 @@
+Project_02_PCB
+Qty,Designator,Description,MF,MP,PRICE,Device,Package,Parts,AVAILABILITY,DESCRIPTION,PACKAGE
+1,F-1X03-SIP-100-32,"3 pin, 100 mil, female header",Harwin,M20-7910342R,$0.80/unit,F-1X03-SIP-100-32,SIP-100-03-32,J2,,FEMALE HEADER,
+1,POCKETBEAGLE,PocketBeagle microcontroller with SD card and micro USB port,BeagleBoard.org,POCKETBEAGLE-SC-569,$27.36/unit,POCKETBEAGLE,POCKETBEAGLE,U$5,,,
+1,TXS0102DCTT,Level shifter to convert signal from LED strip from 3.3 V to 5 V,Texas Instruments,TXS0102DCT,$0.84/unit,TXS0102DCTT,SOP65P400X130-8N,U1,,2-Bit Bidirectional Voltage-Level Shifter for Open-Drain and Push-Pull Application 8-SM8 -40 to 85,LSSOP-8 Texas Instruments
+1,USB-A-S,On board USB port for audio dongle and speakers,TE Connectivity,292303-1,$1.11/unit,USB-A-S,USB-A-S,X1,,USB Connectors,
+3,FIDUCIAL,These markers guide the optical system that is placing components on PCB,N/A,N/A,N/A,FIDUCIAL,FIDUCIAL_40MIL,"FUD1, FUD2, FUD3",,,
+4,MOUNTING_HOLE,Holes for attachment purposes,N/A,N/A,N/A,MOUNTING_HOLE,MOUNTING_HOLE,"MGT1, MGT2, MGT3, MGT4",,Chassis Mounting Hole w/GND connection ability,
+6,"R1-5, RC",1.5 kOhm through hole resistors,Multicomp Pro,MCCFR0W4J0152A50,"$0.067/unit, $0.402 total",R_R0603,R0603,"R1, R2, R3, R4, R5, RC",,"RESISTOR, American symbol",
+6,"BUTTON1-5, BUTTONC","Push button switches with caps, 12x12x7.3 mm",Gikfun,AE1027,$6.98 for set of 25,BUTTON,BUTTON,"U$1, U$2, U$3, U$4, U$6, U$7",,,
